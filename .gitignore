@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+# env_ren 
+.env_ren
+env_ren
 
 # Distribution / packaging
 .Python
@@ -127,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/settings.json
+requirements_dev.txt
+test_localsystem.txt
