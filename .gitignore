@@ -133,3 +133,4 @@ dmypy.json
 .vscode/settings.json
 requirements_dev.txt
 test_localsystem.txt
+.vscode/*
