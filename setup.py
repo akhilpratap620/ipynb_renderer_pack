@@ -11,20 +11,17 @@ SRC_REPO = "IPYNBrenderer"
 AUTHOR_EMAIL ="sakhilpratap620@gmail.com"
 
 setuptools.setup(
-    name= SRC_REPO,
+    name=SRC_REPO,
     version=__version__,
-    author= AUTHOR_USER_NAME,
+    author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="a small package",
-    long_decription=long_description,
-    long_description_content ="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{SRC_REPO}",
-    project_urls = {
-        "Bug Tracker":f"https://github.com/{AUTHOR_USER_NAME}/{SRC_REPO}/issues"
-        },
-
-        package_dir = {"":"src"},
-        packages =setuptools.find_packages(where="src")
-    
-
+    description="A small python package",
+    long_description=long_description,
+    long_description_content="text/markdown",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    project_urls={
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+    },
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src")
 )
